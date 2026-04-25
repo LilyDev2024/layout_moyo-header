@@ -16,15 +16,16 @@ header {
   display: flex;
   justify-content: space-between;
   margin: auto;
+  width: 100%;
 }
 
-img {
+.logo {
   height: 40px;
   width: 40px;
   margin: auto 0 auto 50px;
 }
 
-ul {
+.ul {
   display: flex;
   list-style-type: none;
   text-transform: uppercase;
@@ -33,7 +34,7 @@ ul {
   padding: 0;
 }
 
-li {
+.li {
   margin: 0 20px 0 0;
   position: relative;
   height: 100%;
@@ -41,11 +42,11 @@ li {
   align-items: center;
 }
 
-li:nth-last-of-type(1) {
+.li:nth-last-of-type(1) {
   margin: 0;
 }
 
-nav {
+.nav {
   margin-right: 50px;
 }
 
