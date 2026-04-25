@@ -53,6 +53,8 @@ header {
 .navigation-link {
   height: 60px;
   vertical-align: middle;
+  text-decoration: none;
+  color: black;
 }
 
 .navigation-link:hover {
@@ -74,7 +76,7 @@ header {
   bottom: 0;
 }
 
-a {
+.a {
   display: flex;
   align-items: center;
 }
